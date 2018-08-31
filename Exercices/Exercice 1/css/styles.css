@@ -1,0 +1,23 @@
+body {
+    background: center no-repeat url("../images/fond.jpg");
+}
+
+h1 {
+    color: gold;
+}
+
+p {
+    color: red;
+}
+
+a:link {
+   color: gold;
+}
+
+a:visited {
+    color: cyan;
+}
+
+a:hover {
+    color: lime;
+}
