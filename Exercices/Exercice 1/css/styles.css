@@ -11,11 +11,14 @@ p {
 }
 
 a:link {
-   color: gold;
+    color: gold;
+    text-decoration: none;
 }
+
 
 a:visited {
     color: cyan;
+    text-decoration: none;
 }
 
 a:hover {
