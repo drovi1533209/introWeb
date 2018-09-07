@@ -8,12 +8,16 @@ h1{
     border: 5px solid olivedrab;
 }
 .box {
-
+    float:left;
 	border: 2px solid darkblue;
 	padding-left: 10px;
+    width: 200px;
+    height: 350px;
 }
 .box2 {
+  float:right;
   border: 2px solid red;
+  width: 782px;
 }
 
 
