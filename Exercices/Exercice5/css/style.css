@@ -1,18 +1,23 @@
 ﻿main{
 	margin:0 auto; /* permet de centrer la page*/
-	width: 55%;  
+	width: 55%;
+	text-align:center;
 }
 
 
 nav
 {
-	width : 150px ;
-	border : 1px solid blue ;
+	width : 20%;
+	border : 1px solid blue;
 }
 section
 {
-	border : 1px solid blue ;
-	width: 55%;
+	border : 1px solid blue;
+	width: 78%;
+	margin-left: 75px;
+	position: relative;
+	left: 100px;
+	bottom: 115px;
 }
 
 
