@@ -10,23 +10,16 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-<!--Main-->
 <main>
-    <!--header-->
     <header>
-        <!--nav_mu-->
         <div id="bloc_logo">
             <img src="img/logo.png" width="256" height="56" alt="logo de institut"></div>
         <div id="nav_mu">
             <ul><li><a href="#" target="_blank">| Jeux</a></li><li><a href="#" target="_blank">| Sondage</a></li><li><a href="#" target="_blank">| Nous joindre</a></li></ul>
         </div>
-        <!--Fin nav_mu-->
     </header>
-    <!--fin Header-->
 
-    <!--container-->
     <container>
-        <!--aside-->
         <aside>
             <img class="img_aside_float" src="img/aside.jpg" height="222" width="211" alt="poisson dans le aside">
             <img class="img_aside_float" src="img/pour_nous_joindre.png" height="261" width="45" alt="indication pour nous joindre dans le aside">
@@ -35,22 +28,31 @@
             <nav>
                 <ul><li><a href="#" target="_blank">Accueil</a></li><li><a href="#" target="_blank">| Formation</a></li><li><a href="#" target="_blank">| Membres</a></li><li><a href="#" target="_blank">| Services</a></li></ul>
             </nav>
-            <h1>Institut des sciences de la mer de Rimousky</h1>
-            <p>
-                C.P. 221<br>
-                Baie-Comeau (Québec)<br>
-                G5C2S9<br>
-            </p>
-            <p>
-                <b>Téléphone:</b>(418)724-1650<br>
-                <b>Télécopie:</b>(418)724-1846<br>
-                <b>Tél.sans frais:</b>1 800 511-3382<br>
-                <a href="mailto:institutsciencerimousky@globetrotter.net">institutsciencerimousky@globetrotter.net</a>
-            </p>
-            <p>
-                <b>Heures d'ouverture:</b>8 h 30 à 16 h 30 du lundi au vendredi.
-            </p>
-            <hr>
+            <h1>Entrez les informations du membre</h1>
+            <form>
+                <label for="nom">Nom*</label>
+                <input id="nom" required>
+            </form>
+            <form>
+                <label for="Prénom">Prénom*</label>
+                <input id="Prénom" required>
+            </form>
+            <form>
+                <label for="adresse courriel">Adresse Courriel</label>
+                <input id="adresse courriel">
+            </form>
+            <form>
+                <label for="Téléphone">Téléphone*</label>
+                <input id="Téléphone" placeholder="(418) 917-1684" required pattern="[0-9] {3} - [0-9] {3} - [0-9] {4} ">
+            </form>
+            <form>
+                <label for="Commentaires">Commentaires</label>
+                <input id="Commentaires" placeholder="Écrivez vos commentaires">
+            </form>
+            <form>
+                <label for="Catégorie">Catégorie</label>
+                <input id="Catégorie">
+            </form>
 
         </section>
     </container>
