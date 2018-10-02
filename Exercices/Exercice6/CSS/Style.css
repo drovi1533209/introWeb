@@ -11,3 +11,67 @@
     font-size: 15px;
     padding-bottom: 3px;
 }
+#nom {
+    display:inline-block;
+    width: 45%;
+    margin-left: 25%;
+}
+
+#prénom {
+    display:inline-block;
+    width: 45%;
+    margin-left: 21.5%;
+}
+#adresse {
+    display:inline-block;
+    width: 45%;
+    margin-left: 22%;
+}
+
+#ville {
+    display:inline-block;
+    width: 45%;
+    margin-left: 26.5%;
+}
+
+#téléphone {
+    display:inline-block;
+    margin-left: 18.5%;
+}
+
+#dateinscript {
+    display:inline-block;
+    margin-left: 10.5%;
+}
+
+#datefin {
+    display:inline-block;
+    margin-left: 19%;
+}
+
+#sexe {
+    display:inline-block;
+    margin-left: 26%;
+}
+
+#choix {
+    display:inline-block;
+    margin-left: 25%;
+}
+
+#CarteCrédit {
+    display:inline-block;
+    margin-left: 13%;
+}
+
+#mdp {
+    display:inline-block;
+    width: 45%;
+    margin-left: 14.5%;
+}
+
+#courriel {
+    display:inline-block;
+    width: 45%;
+    margin-left: 22.5%;
+}
